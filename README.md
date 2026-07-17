@@ -1,10 +1,10 @@
 # Automated Accessibility Auditor (RGAA 4.1 & WCAG 2.1)
 
 ## English
-An automated accessibility testing tool built with **Playwright** and **Axe-core**. It performs hybrid accessibility audits by scanning any target URL, mapping technical violations to French (**RGAA 4.1**) and international (**WCAG 2.1**) standards, and generating actionable reports.
+An automated web accessibility auditing tool designed to bridge the gap between developer-facing errors and regulatory compliance. Built with **Playwright** and **Axe-core**, the project uses a custom rule-mapping dictionary to translate raw DOM violations (e.g., image-alt or color-contrast) directly to official **French RGAA 4.1** criteria (e.g., Criteria 1.1) and **WCAG 2.1** guidelines (e.g., 1.1.1). It automates the generation of full-page screenshots as visual evidence and compiles structured Markdown reports to accelerate legal audits and QA workflows.
 
 ## French
-Un outil d'audit d'accessibilité automatisé conçu pour évaluer la conformité des sites web aux référentiels français (RGAA 4.1) et internationaux (WCAG 2.1). Développé avec Playwright et Axe-core, il associe dynamiquement les erreurs détectées aux critères légaux, capture des preuves visuelles en cas de non-conformité et génère un rapport détaillé en Markdown pour accélérer la correction par les équipes techniques
+Un outil d'audit automatisé de l'accessibilité web conçu pour lier les erreurs techniques de développement aux exigences réglementaires. Développé avec **Playwright** et **Axe-core**, le projet intègre un dictionnaire de correspondance (mapping) personnalisé qui traduit les violations brutes du DOM (ex: image-alt ou color-contrast) directement en critères officiels du **RGAA 4.1** (ex: Critère 1.1) et directives du **WCAG 2.1** (ex: 1.1.1). L'outil automatise la capture d'écrans comme preuve visuelle et produit des rapports Markdown structurés pour accélérer les audits de conformité légale
 
 ##  Key Features
 
